@@ -79,3 +79,18 @@ section .container .imgbx .main_img{
 section .container .imgbx:hover{
     transform: scale(1.1);
 }
+
+footer{
+    position: relative;
+    height: 3em;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+   text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
