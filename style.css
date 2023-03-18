@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'GFS Neohellenic';
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-width: 500px;
+    background-color: orange;
+    min-width: 500px;
+}
+header{
+    position: relative;
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    padding: 5px;
+    background-color: bisque;
+    width: 100%;
+    min-width: 500px;
+}
+header a{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+section{
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;   
+}
+section .container{
+    align-self: center;
+    display: flex;
+    width: 500px;
+    height: 700px;
+    margin: 20px;
+    padding: 10px;
+    background-color: slategray;    
+    border-radius: 10px;
+}
+
+section .container .imgbx{
+    border-radius: 10px;
+    height: 680px;
+    width: 480px;
+    background-color:antiquewhite;
+    padding: 10px;
+    
+
+}
+
+section .container .imgbx .main_img{
+    border-radius: 10px;
+    position: relative;
+    height: 250px;
+    width: 470px;
+    margin: 5px;
+}
+
+.recipe_name{
+    font-weight:bolder;
+    font-size: 2em;
+}
+
+.recipe_desc{
+    font-size: 1.5em;
+}
+
+section .container .imgbx:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    position: relative;
+    height: 3em;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+   text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
